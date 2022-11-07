@@ -13,7 +13,7 @@ import com.bnpparibas.exercise.roboticrovers.service.NavigationService;
 import com.bnpparibas.exercise.roboticrovers.service.NavigationServiceImpl;
 
 /**
- * Unit test for simple App.
+ * Unit test for creation service.
  */
 public class CreationServiceTest {
 	NavigationService navigationService = new NavigationServiceImpl();

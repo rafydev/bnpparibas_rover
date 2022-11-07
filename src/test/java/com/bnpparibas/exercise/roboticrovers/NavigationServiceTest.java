@@ -12,7 +12,7 @@ import com.bnpparibas.exercise.roboticrovers.service.NavigationService;
 import com.bnpparibas.exercise.roboticrovers.service.NavigationServiceImpl;
 
 /**
- * Unit test for simple App.
+ * Unit test for navigation service.
  */
 public class NavigationServiceTest {
 	NavigationService navigationService = new NavigationServiceImpl();
@@ -27,7 +27,7 @@ public class NavigationServiceTest {
 		navigationService.applyActions(rover, "L");
 		assertEquals(1, rover.getPositionX(), "The final position of the rover is not correct");
 		assertEquals(2, rover.getPositionY(), "The final position of the rover is not correct");
-		assertEquals(DirectionEnum.W, rover.getDirection() , "The final position of the rover is not correct");
+		assertEquals(DirectionEnum.W, rover.getDirection() , "The final orientation of the rover is not correct");
 	}
 
 	/**
@@ -39,7 +39,7 @@ public class NavigationServiceTest {
 		navigationService.applyActions(rover, "R");
 		assertEquals(1, rover.getPositionX(), "The final position of the rover is not correct");
 		assertEquals(2, rover.getPositionY(), "The final position of the rover is not correct");
-		assertEquals(DirectionEnum.E,rover.getDirection(),  "The final position of the rover is not correct");
+		assertEquals(DirectionEnum.E,rover.getDirection(),  "The final orientation of the rover is not correct");
 	}
 	
 	/**
@@ -51,7 +51,7 @@ public class NavigationServiceTest {
 		navigationService.applyActions(rover, "M");
 		assertEquals(1, rover.getPositionX(), "The final position of the rover is not correct");
 		assertEquals(3, rover.getPositionY(), "The final position of the rover is not correct");
-		assertEquals(DirectionEnum.N, rover.getDirection(), "The final position of the rover is not correct");
+		assertEquals(DirectionEnum.N, rover.getDirection(), "The final orientation of the rover is not correct");
 	}
 	
 	/**
@@ -63,7 +63,7 @@ public class NavigationServiceTest {
 		navigationService.applyActions(rover, "M");
 		assertEquals(2, rover.getPositionX(), "The final position of the rover is not correct");
 		assertEquals(2, rover.getPositionY(), "The final position of the rover is not correct");
-		assertEquals(DirectionEnum.E, rover.getDirection(), "The final position of the rover is not correct");
+		assertEquals(DirectionEnum.E, rover.getDirection(), "The final orientation of the rover is not correct");
 	}
 	
 	/**
@@ -75,7 +75,7 @@ public class NavigationServiceTest {
 		navigationService.applyActions(rover, "M");
 		assertEquals(1, rover.getPositionX(), "The final position of the rover is not correct");
 		assertEquals(1, rover.getPositionY(), "The final position of the rover is not correct");
-		assertEquals(DirectionEnum.S, rover.getDirection(), "The final position of the rover is not correct");
+		assertEquals(DirectionEnum.S, rover.getDirection(), "The final orientation of the rover is not correct");
 	}
 	
 	/**
@@ -87,7 +87,7 @@ public class NavigationServiceTest {
 		navigationService.applyActions(rover, "M");
 		assertEquals(0, rover.getPositionX(), "The final position of the rover is not correct");
 		assertEquals(2, rover.getPositionY(), "The final position of the rover is not correct");
-		assertEquals(DirectionEnum.W, rover.getDirection(), "The final position of the rover is not correct");
+		assertEquals(DirectionEnum.W, rover.getDirection(), "The final orientation of the rover is not correct");
 	}
 	
 	/**
