@@ -82,7 +82,7 @@ public class NavigationServiceTest {
 	 * Test move forward direction ouest
 	 */
 	@Test
-	public void shouldMoveForwardOuest() {
+	public void shouldMoveForwardWest() {
 		Rover rover = createRobot(1,2,DirectionEnum.W);
 		navigationService.applyActions(rover, "M");
 		assertEquals(0, rover.getPositionX(), "The final position of the rover is not correct");
