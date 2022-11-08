@@ -4,11 +4,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-import com.bnpparibas.exercise.roboticrovers.domain.Rover;
-import com.bnpparibas.exercise.roboticrovers.service.CreationService;
-import com.bnpparibas.exercise.roboticrovers.service.CreationServiceImpl;
-import com.bnpparibas.exercise.roboticrovers.service.NavigationService;
-import com.bnpparibas.exercise.roboticrovers.service.NavigationServiceImpl;
+import com.bnpparibas.exercise.roboticrovers.domains.Rover;
+import com.bnpparibas.exercise.roboticrovers.services.CreationService;
+import com.bnpparibas.exercise.roboticrovers.services.CreationServiceImpl;
+import com.bnpparibas.exercise.roboticrovers.services.NavigationService;
+import com.bnpparibas.exercise.roboticrovers.services.NavigationServiceImpl;
 
 /**
  * 

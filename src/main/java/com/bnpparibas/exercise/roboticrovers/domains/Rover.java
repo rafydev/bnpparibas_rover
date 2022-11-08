@@ -1,4 +1,4 @@
-package com.bnpparibas.exercise.roboticrovers.domain;
+package com.bnpparibas.exercise.roboticrovers.domains;
 
 import com.bnpparibas.exercise.roboticrovers.enums.DirectionEnum;
 

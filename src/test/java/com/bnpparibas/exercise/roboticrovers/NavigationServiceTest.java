@@ -4,12 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.bnpparibas.exercise.roboticrovers.domain.Rover;
+import com.bnpparibas.exercise.roboticrovers.domains.Rover;
 import com.bnpparibas.exercise.roboticrovers.enums.DirectionEnum;
-import com.bnpparibas.exercise.roboticrovers.service.CreationService;
-import com.bnpparibas.exercise.roboticrovers.service.CreationServiceImpl;
-import com.bnpparibas.exercise.roboticrovers.service.NavigationService;
-import com.bnpparibas.exercise.roboticrovers.service.NavigationServiceImpl;
+import com.bnpparibas.exercise.roboticrovers.services.CreationService;
+import com.bnpparibas.exercise.roboticrovers.services.CreationServiceImpl;
+import com.bnpparibas.exercise.roboticrovers.services.NavigationService;
+import com.bnpparibas.exercise.roboticrovers.services.NavigationServiceImpl;
 
 /**
  * Unit test for navigation service.

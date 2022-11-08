@@ -1,7 +1,7 @@
-package com.bnpparibas.exercise.roboticrovers.service;
+package com.bnpparibas.exercise.roboticrovers.services;
 
-import com.bnpparibas.exercise.roboticrovers.domain.Plan;
-import com.bnpparibas.exercise.roboticrovers.domain.Rover;
+import com.bnpparibas.exercise.roboticrovers.domains.Plan;
+import com.bnpparibas.exercise.roboticrovers.domains.Rover;
 import com.bnpparibas.exercise.roboticrovers.enums.DirectionEnum;
 
 /**

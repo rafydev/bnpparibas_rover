@@ -1,6 +1,6 @@
-package com.bnpparibas.exercise.roboticrovers.service;
+package com.bnpparibas.exercise.roboticrovers.services;
 
-import com.bnpparibas.exercise.roboticrovers.domain.Rover;
+import com.bnpparibas.exercise.roboticrovers.domains.Rover;
 
 public interface NavigationService {
 	

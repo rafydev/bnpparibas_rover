@@ -1,4 +1,4 @@
-package com.bnpparibas.exercise.roboticrovers.domain;
+package com.bnpparibas.exercise.roboticrovers.domains;
 
 /**
  * The max positions of the plateau

@@ -1,8 +1,8 @@
-package com.bnpparibas.exercise.roboticrovers.service;
+package com.bnpparibas.exercise.roboticrovers.services;
 
 import java.util.List;
 
-import com.bnpparibas.exercise.roboticrovers.domain.Rover;
+import com.bnpparibas.exercise.roboticrovers.domains.Rover;
 import com.bnpparibas.exercise.roboticrovers.enums.ActionEnum;
 import com.bnpparibas.exercise.roboticrovers.enums.DirectionEnum;
 import com.bnpparibas.exercise.roboticrovers.utils.ActionsConverter;
